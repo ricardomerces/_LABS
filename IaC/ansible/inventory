@@ -1,0 +1,6 @@
+[labs]
+54.224.185.102
+
+[labs:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=~/.ssh/aula-id_rsa

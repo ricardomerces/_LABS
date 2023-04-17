@@ -1,0 +1,16 @@
+---
+
+- name: LABS setup
+  hosts: labs
+  become: true
+  tasks:
+
+  ############ SETUP ############
+
+    - name: Install a list of packages
+      ansible.builtin.apt:
+        update_cache: yes
+        pkg:
+        - nginx
+        - net-tools
+        - stress-ng
