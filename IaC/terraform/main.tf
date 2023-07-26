@@ -4,11 +4,11 @@ module "ec2_instance" {
 
   name = "lab"
 
-  # ami                    = "ami-00c39f71452c08778" # Amazon Linux 2023
-  ami                    = "ami-007855ac798b5175e" #Ubuntu 22.04
+  # ami                    = "ami-05548f9cecf47b442" # Amazon Linux 2023
+  ami                    = "ami-053b0d53c279acc90" #Ubuntu 22.04
 
   instance_type          = "t2.micro"
-  key_name               = "aula"
+  key_name               = "labs"
 #   monitoring             = true
   vpc_security_group_ids = ["sg-07f9df34bb328b145", "sg-00013924a0387c9ab"]
   subnet_id              = "subnet-0a8f1497a9c82a152"
