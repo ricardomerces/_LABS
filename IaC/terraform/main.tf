@@ -18,8 +18,8 @@ module "ec2_instance" {
   }
 }
 
-module "s3_bucket" {
-  source = "terraform-aws-modules/s3-bucket/aws"
-  bucket = "labs-terraform-rmo"
-  force_destroy = true
-}
+# module "s3_bucket" {
+#   source = "terraform-aws-modules/s3-bucket/aws"
+#   bucket = "labs-terraform-rmo"
+#   force_destroy = true
+# }
