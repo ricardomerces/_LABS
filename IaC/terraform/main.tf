@@ -9,7 +9,7 @@ module "ec2_instance" {
 
   instance_type          = "t2.micro"
   key_name               = "labs"
-#   monitoring             = true
+  monitoring             = true
   vpc_security_group_ids = ["sg-07f9df34bb328b145", "sg-00013924a0387c9ab"]
   subnet_id              = "subnet-0a8f1497a9c82a152"
 
