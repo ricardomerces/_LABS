@@ -13,7 +13,7 @@
         pkg:
         - nginx
         - net-tools
-        - stress-ng
+        - stress
 
     - name: Copy Site files
       ansible.builtin.copy:
